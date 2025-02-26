@@ -1,0 +1,6 @@
+ol li{
+    --uno: list-circle;
+}
+ul li{
+    --uno: list-circle;
+}
