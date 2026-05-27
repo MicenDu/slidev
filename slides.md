@@ -13,8 +13,9 @@ mdc: true
 ---
 
 # 用户要的不是锤子 🔨
+"If the only tool you have is a hammer, everything looks like a nail."
 
-**从对标分析到设计思维双钻模型**
+**从对标分析到设计思维**
 
 2026-05-28
 @杜屈佳
@@ -29,18 +30,18 @@ mdc: true
 
 ---
 layout: section
+transition: fade
 ---
 
  👋 当你遇到一个**完全陌生的领域**，你的反应是什么？
 
+<ul>
 
-<v-clicks>
+<li v-click>🔍 直接搜索解决方案？</li>
+<li v-click>📋 找同类产品抄一遍？</li>
+<li v-click>🤔 先问「为什么会有这个需求」？</li>
 
-- 🔍 直接搜索解决方案？
-- 📋 找同类产品抄一遍？
-- 🤔 先问「为什么会有这个需求」？
-
-</v-clicks>
+</ul>
 <!--
 举例子：陌生环境
 互动环节：让大家说几个答案，然后总结规律。
@@ -48,16 +49,17 @@ layout: section
 
 ---
 layout: section
+transition: fade
 ---
 
  # Benchmarking 对标分析
 
-<v-clicks>
+<ul>
 
-- 设计师做新产品时用 **对标研究** 看行业天花板
-- 开发者找 **最佳实践**（如 Vue 最佳实践）
+<li v-click>设计师做新产品时用 <strong>对标研究</strong> 看行业天花板</li>
+<li v-click>开发者找 <strong>最佳实践</strong>（如 Vue 最佳实践）</li>
 
-</v-clicks>
+</ul>
 
 <!--
 本质上是同一件事
@@ -69,6 +71,7 @@ layout: section
 ---
 layout: image-right
 image: "/image/path"
+transition: slide-left
 ---
 
 # CUSS 自助值机
@@ -79,6 +82,7 @@ image: "/image/path"
 <!-- 背景 20 世纪 90 年代初，全球航空业在放松管制、燃油价格波动和票价竞争的多重压力下，普遍面临单位旅客服务成本过高的问题，为提高航班周转效率、减少高峰时期的排队拥堵，不少航空公司开始尝试用信息技术替代部分人工流程，自助值机因此成为一个自然的实验场景 -->
 ---
 layout: two-cols
+transition: slide-left
 ---
 
 # CUSS 对标矩阵
@@ -88,13 +92,13 @@ layout: two-cols
 
 **纵向研究**：跨行业的反差
 
-<v-clicks>
+<ul>
 
-- ✈️ **高铁火车**：
-- 🍔 **肯德基**：
-- 🚰 **自动售货机**
+<li v-click>✈️ <strong>高铁火车</strong></li>
+<li v-click>🍔 <strong>肯德基</strong></li>
+<li v-click>🚰 <strong>自动售货机</strong></li>
 
-</v-clicks>
+</ul>
 
 
 <!--
@@ -105,61 +109,86 @@ layout: two-cols
 
 ---
 layout: fact
+transition: fade
 ---
 # 设计思维？
 
-<v-click> 以人为本 </v-click>
+<span v-click> 以人为本 </span>
 
 <!-- 以人为本，从用户的真实需求出发，而不是从功能清单出发。 -->
 
 
 ---
 layout: two-cols
+transition: slide-left
 ---
-
-<v-clicks>
 
 # 谷歌首页
 
-→ 功能最强大的搜索引擎，界面就一个框
+<div class="mt-3 text-[1.05rem] leading-7 text-slate-600">
+  功能最强大的搜索引擎，界面就一个框
+</div>
+
+<div v-click class="mt-6 flex min-h-[280px] items-center justify-center">
+  <img
+    src="/images/drill/Google.png"
+    alt="Google 首页"
+    class="block w-full max-w-[360px] max-h-[280px] object-contain rounded-[18px]"
+  />
+</div>
+
+::right::
+
+<div v-click>
 
 # 苹果 Apple TV 遥控器
 
-→ 不是加按钮，是**减按钮**
+  <div class="mt-3 text-[1.05rem] leading-7 text-slate-600">
+    不是加按钮，是<strong>减按钮</strong>
+  </div>
 
-</v-clicks>
+</div>
+
+<div v-click class="mt-6 flex min-h-[280px] items-center justify-center">
+  <img
+    src="/images/drill/Apple TV Remote.png"
+    alt="Apple TV 遥控器"
+    class="block w-[360px] max-w-[360px] max-h-[280px] object-contain"
+  />
+</div>
 
 <!--
 两个经典案例：谷歌和苹果。简洁即是设计思维的体现。
 -->
 
 ---
-layout: image-right
+layout: bullets
+transition: slide-left
 ---
 
 # 回到锤子的比喻
 
-<v-click>
+<div v-click>
 
 技术是锤子。
 
 有了电钻也好，AI 也好，你手里的工具越来越强。
 
-</v-click>
+</div>
 
-<v-click>
+<div v-click>
 
 但用户来找你，不是因为你有锤子
 
-</v-click>
+</div>
 
-<v-click>
+<div v-click>
 
 
-是因为他墙上想挂一幅画。🖼️
+是因为他墙上想挂一幅画。
 
-但挂画的目的是什么？
-</v-click>
+但挂画的目的是什么🫤？
+</div>
 
 <!--
 但用户来找你，不是因为你有锤子——
@@ -168,18 +197,24 @@ layout: image-right
 -->
 
 ---
+transition: slide-left
+---
 
 # 用设计思维重看 CUSS
 
-<v-clicks>
+<div v-click>
 
 ❌ **表象问题**：系统界面不好看
 
+</div>
+
+<div v-click>
+
 ✅ **真实问题**：旅客在值机场景下的**焦虑感没有被解决**
 
-</v-clicks>
+</div>
 
-<v-click>
+<div v-click>
 
 <div class="mt-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded">
 
@@ -189,11 +224,7 @@ layout: image-right
 
 </div>
 
-</v-click>
-
-<v-click>
-
-</v-click>
+</div>
 
 <!--
 收敛：用设计思维重新定义问题，找到方向
@@ -201,20 +232,21 @@ layout: image-right
 
 ---
 layout: section
+transition: fade
 ---
 
 # 「变的是工具，不变的是人」
 
 
-<v-clicks>
+<ul>
 
-- 10 年前的设计稿会改变
-- 10 年前的代码也会改变
-- 技术栈每隔几年就换一批
+<li v-click>10 年前的设计稿会改变</li>
+<li v-click>10 年前的代码也会改变</li>
+<li v-click>技术栈每隔几年就换一批</li>
 
-</v-clicks>
+</ul>
 
-<v-click>
+<div v-click>
 
 <div class="mt-6 p-4 bg-gray-50 border rounded">
 
@@ -226,7 +258,7 @@ layout: section
 
 </div>
 
-</v-click>
+</div>
 
 <!--
 地铁购票机类比：被取代的不是功能，是解决问题的更好方式出现了。
@@ -234,6 +266,7 @@ layout: section
 
 ---
 layout: quote
+transition: fade-out
 ---
 
 
@@ -252,6 +285,7 @@ layout: quote
 
 ---
 layout: bullets
+transition: fade
 ---
 
 # 参考资料
