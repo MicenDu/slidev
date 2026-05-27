@@ -10,6 +10,11 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+fonts:
+  sans: 'Inter, Noto Sans SC'
+  mono: 'JetBrains Mono'
+  weights: '200,300,400,500,600,700,800,900'
+  italic: false
 ---
 
 # 用户要的不是锤子 🔨
@@ -125,15 +130,15 @@ transition: slide-left
 
 # 谷歌首页
 
-<div class="mt-3 text-[1.05rem] leading-7 text-slate-600">
+<div class="cb-case-copy">
   功能最强大的搜索引擎，界面就一个框
 </div>
 
-<div v-click class="mt-6 flex min-h-[280px] items-center justify-center">
+<div v-click class="cb-case-media">
   <img
     src="/images/drill/Google.png"
     alt="Google 首页"
-    class="block w-full max-w-[360px] max-h-[280px] object-contain rounded-[18px]"
+    class="cb-case-image-rounded"
   />
 </div>
 
@@ -143,17 +148,17 @@ transition: slide-left
 
 # 苹果 Apple TV 遥控器
 
-  <div class="mt-3 text-[1.05rem] leading-7 text-slate-600">
+  <div class="cb-case-copy">
     不是加按钮，是<strong>减按钮</strong>
   </div>
 
 </div>
 
-<div v-click class="mt-6 flex min-h-[280px] items-center justify-center">
+<div v-click class="cb-case-media">
   <img
     src="/images/drill/Apple TV Remote.png"
     alt="Apple TV 遥控器"
-    class="block w-[360px] max-w-[360px] max-h-[280px] object-contain"
+    class="cb-case-image max-w-[360px] w-[360px]"
   />
 </div>
 
