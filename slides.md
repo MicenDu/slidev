@@ -19,24 +19,27 @@ fonts:
 
 <GradientBackground/>
 
-<div class="swiss-page">
-  <div>
-    <div class="ui-meta mt-40 text-[20px] tracking-[0.14em]">
-      Design Thinking · Benchmarking
-    </div>
-    <p
-      class="text-[80px] mt-8 whitespace-nowrap normal-case leading-[2]"
-    >
-      用户要的不是锤子 <span class="align-[8px]">🔨</span>
-    </p>
-    <p class="mt-35 text-[56px] text-gray-600 leading-[2] font-400">
-      从对标分析到设计思维
-    </p>
-    <div class="mt-20 text-[16px] leading-[1.5] text-cb-ink">
-      <div>杜屈佳</div>
-      <div class="mt-1">2026-05-28</div>
+<div class="mx-auto flex min-h-full max-w-[1040px] flex-col justify-between px-4 text-left gap-24">
+  <div class="text-[20px] tracking-[0.14em] text-gray-600">
+    <div>
+     Benchmarking · Design Thinking 
     </div>
   </div>
+
+  <div class="flex flex-1 items-center">
+    <div class="flex max-w-[760px] flex-col gap-4 pt-6">
+      <div class="text-[56px] leading-[1.1] normal-case text-gray-900">
+        用户要的不是锤子 <span class="align-[8px]">🔨</span>
+      </div>
+      <div class="max-w-[16ch] text-[24px] leading-[1.45] font-400 text-gray-600">
+        从对标分析到设计思维
+      </div>
+    </div>
+  </div>
+    <div class="mt-8 text-[16px] leading-[1.6] text-gray-700">
+        <div>杜屈佳</div>
+        <div>2026-05-28</div>
+    </div>
 </div>
 
 <!--
@@ -54,7 +57,7 @@ transition: fade
 
 <div class="">
   <div class="">
-    <h2 class="">当你遇到一个完全陌生的领域</h2>
+    <div class="text-[36px]">当你遇到一个完全陌生的领域</div>
     <p class="">你的第一反应是什么？</p>
   </div>
   <ul class="">
@@ -76,9 +79,9 @@ transition: fade
 
 <div class="">
   <div class="">
-    <h2 class="">Benchmarking 对标分析</h2>
+    <div class="text-[36px]">Benchmarking 对标分析</div>
   </div>
-  <ul class="">
+  <ul class="mt-2">
     <li v-click>设计师做新产品时用 <strong>对标研究</strong> 看行业天花板</li>
     <li v-click>开发者找 <strong>最佳实践</strong>（如 Vue 最佳实践）</li>
   </ul>
