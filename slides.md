@@ -11,29 +11,31 @@ drawings:
 transition: slide-left
 mdc: true
 fonts:
-  sans: 'Inter, Helvetica Neue, Arial Nova, Noto Sans SC'
-  mono: 'JetBrains Mono'
+  sans: 'Inter, Helvetica Neue, Helvetica, Arial, Noto Sans SC, Microsoft YaHei UI, sans-serif'
+  mono: 'JetBrains Mono, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace'
   weights: '200,300,400,500,600,700'
   italic: false
 ---
 
+<GradientBackground/>
+
 <div class="swiss-page">
   <div>
-    <div class="ui-meta text-[20px] tracking-[0.14em]">
+    <div class="ui-meta mt-40 text-[20px] tracking-[0.14em]">
       Design Thinking · Benchmarking
     </div>
-    <h1
-      class="h-cover-zh mt-8 whitespace-nowrap normal-case"
+    <p
+      class="text-[80px] mt-8 whitespace-nowrap normal-case leading-[2]"
     >
       用户要的不是锤子 <span class="align-[8px]">🔨</span>
-    </h1>
-    <p class="h-md mt-10">
+    </p>
+    <p class="mt-35 text-[56px] text-gray-600 leading-[2] font-400">
       从对标分析到设计思维
     </p>
-  </div>
-  <div class="swiss-meta-row">
-    <div class="ui-meta">2026-05-28</div>
-    <div class="ui-meta">杜屈佳</div>
+    <div class="mt-20 text-[16px] leading-[1.5] text-cb-ink">
+      <div>杜屈佳</div>
+      <div class="mt-1">2026-05-28</div>
+    </div>
   </div>
 </div>
 
@@ -50,19 +52,18 @@ layout: section
 transition: fade
 ---
 
-<div class="swiss-page">
-  <div class="swiss-head">
-    <div class="t-cat">Context</div>
-    <div class="swiss-accent-bar"></div>
-    <h2 class="swiss-section-title">当你遇到一个完全陌生的领域</h2>
-    <p class="h-md max-w-[18ch]">你的第一反应是什么？</p>
+<div class="">
+  <div class="">
+    <h2 class="">当你遇到一个完全陌生的领域</h2>
+    <p class="">你的第一反应是什么？</p>
   </div>
-  <ul class="swiss-list">
+  <ul class="">
     <li v-click>🔍 直接搜索解决方案？</li>
     <li v-click>📋 找同类产品抄一遍？</li>
     <li v-click>🤔 先问「为什么会有这个需求」？</li>
   </ul>
 </div>
+
 <!--
 举例子：陌生环境
 互动环节：让大家说几个答案，然后总结规律。
@@ -73,17 +74,16 @@ layout: section
 transition: fade
 ---
 
-<div class="swiss-page">
-  <div class="swiss-head">
-    <div class="t-cat">Methodology</div>
-    <div class="swiss-accent-bar"></div>
-    <h2 class="swiss-section-title">Benchmarking 对标分析</h2>
+<div class="">
+  <div class="">
+    <h2 class="">Benchmarking 对标分析</h2>
   </div>
-  <ul class="swiss-list">
+  <ul class="">
     <li v-click>设计师做新产品时用 <strong>对标研究</strong> 看行业天花板</li>
     <li v-click>开发者找 <strong>最佳实践</strong>（如 Vue 最佳实践）</li>
   </ul>
 </div>
+
 
 <!--
 本质上是同一件事
@@ -94,37 +94,27 @@ transition: fade
 
 ---
 layout: image-right
-image: "/image/path"
+image: "/images/drill/airport.jpg"
 transition: slide-left
 ---
 
-# CUSS 自助值机
+ <h2 class="swiss-section-title">CUSS 对标矩阵</h2>
 
-背景介绍
-
-<!-- 右侧图片 -->
-<!-- 背景 20 世纪 90 年代初，全球航空业在放松管制、燃油价格波动和票价竞争的多重压力下，普遍面临单位旅客服务成本过高的问题，为提高航班周转效率、减少高峰时期的排队拥堵，不少航空公司开始尝试用信息技术替代部分人工流程，自助值机因此成为一个自然的实验场景 -->
----
-layout: two-cols
-transition: slide-left
----
-
-# CUSS 对标矩阵
-
-**横向研究**：找同类做得最好的
+<p v-click>横向研究：找同类做得最好的</p>
+<li v-click>✈️ <strong>SITA、Amadeus</strong></li>
 
 
-**纵向研究**：跨行业的反差
+<p v-click>纵向研究：跨行业的反差</p>
 
 <ul>
 
-<li v-click>✈️ <strong>高铁火车</strong></li>
+<li v-click>🚄 <strong>高铁火车</strong></li>
 <li v-click>🍔 <strong>肯德基</strong></li>
 <li v-click>🚰 <strong>自动售货机</strong></li>
 
 </ul>
 
-
+<!-- 背景 20 世纪 90 年代初，全球航空业在放松管制、燃油价格波动和票价竞争的多重压力下，普遍面临单位旅客服务成本过高的问题，为提高航班周转效率、减少高峰时期的排队拥堵，不少航空公司开始尝试用信息技术替代部分人工流程，自助值机因此成为一个自然的实验场景 -->
 <!--
 纵向跨行业类比，引发思考：同样是自助终端，差在哪里？
 国内数据比较难获取，知名公司 SITA、Amadeus，看看行业天花板
@@ -137,7 +127,7 @@ transition: fade
 ---
 # 设计思维？
 
-<span v-click> 以人为本 </span>
+<span v-click class="text-gray-400 mt-8"> 以人为本 </span>
 
 <!-- 以人为本，从用户的真实需求出发，而不是从功能清单出发。 -->
 
@@ -186,7 +176,8 @@ transition: slide-left
 -->
 
 ---
-layout: bullets
+layout: image-right
+image: "/images/drill/wall art.jpg"
 transition: slide-left
 ---
 
@@ -221,6 +212,7 @@ transition: slide-left
 -->
 
 ---
+layout: bullets
 transition: slide-left
 ---
 
@@ -263,8 +255,7 @@ layout: section
 transition: fade
 ---
 
-# 「变的是工具，不变的是人」
-
+<h1 class='text-xl'>「变的是工具，不变的是人」</h1>
 
 <ul>
 
@@ -278,11 +269,9 @@ transition: fade
 
 <div class="swiss-panel-soft mt-6">
 
-🚇 **地铁自助购票机的故事**
+<!-- 🚇 **地铁自助购票机的故事** -->
 
 设备还在，但用的人越来越少——
-
-不是机器坏了，是手机 APP 更好地解决了「出行」这件事本身。
 
 </div>
 
@@ -290,6 +279,7 @@ transition: fade
 
 <!--
 地铁购票机类比：被取代的不是功能，是解决问题的更好方式出现了。
+不是机器坏了，是手机 APP 更好地解决了「出行」这件事本身。
 -->
 
 ---
@@ -298,12 +288,9 @@ transition: fade-out
 ---
 
 
-
-# “真正的护城河不是用了什么工具，
-
-# 而是对**用户**、对**业务**有多深的理解。”
-
-
+<div class="cb-display-sm mx-auto max-w-[26ch] font-serif text-[50px] leading-[1.3]">
+“真正的护城河不是用了什么工具，而是对<strong>用户</strong>、对<strong>业务</strong>有多深的理解。”
+</div>
 
 
 <!--
