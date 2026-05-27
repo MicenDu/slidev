@@ -158,7 +158,7 @@ transition: slide-left
   <img
     src="/images/drill/Apple TV Remote.png"
     alt="Apple TV 遥控器"
-    class="cb-case-image max-w-[360px] w-[360px]"
+    class="cb-case-image max-w-[360px] w-[360px] cb-case-image-rounded"
   />
 </div>
 
