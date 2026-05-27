@@ -1,0 +1,7 @@
+Error: Port 3030 is already in use
+    at httpServerStart (file:///F:/TravelSky/report/slidev/node_modules/.pnpm/vite@8.0.14_@types+node@22._43ed9253554a2434b1653fc34e8b9e76/node_modules/vite/dist/node/chunks/node.js:10661:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async startServer (file:///F:/TravelSky/report/slidev/node_modules/.pnpm/vite@8.0.14_@types+node@22._43ed9253554a2434b1653fc34e8b9e76/node_modules/vite/dist/node/chunks/node.js:26389:30)
+    at async Object.listen (file:///F:/TravelSky/report/slidev/node_modules/.pnpm/vite@8.0.14_@types+node@22._43ed9253554a2434b1653fc34e8b9e76/node_modules/vite/dist/node/chunks/node.js:26206:4)
+    at async initServer (file:///F:/TravelSky/report/slidev/node_modules/.pnpm/@slidev+cli@52.15.2_patch_h_e7252605837dcc25d3ed4713fac22ed6/node_modules/@slidev/cli/dist/cli.mjs:168:3)
+    at async Object.handler (file:///F:/TravelSky/report/slidev/node_modules/.pnpm/@slidev+cli@52.15.2_patch_h_e7252605837dcc25d3ed4713fac22ed6/node_modules/@slidev/cli/dist/cli.mjs:251:20)

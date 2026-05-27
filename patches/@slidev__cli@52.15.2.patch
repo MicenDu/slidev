@@ -1,0 +1,16 @@
+diff --git a/dist/shared-CmTSrQGO.mjs b/dist/shared-CmTSrQGO.mjs
+index c3889430c62764db69edf1fa68c89b6ed788b883..6ddcdd86e4a4b7069a93ff60f792803cb497eaee 100644
+--- a/dist/shared-CmTSrQGO.mjs
++++ b/dist/shared-CmTSrQGO.mjs
+@@ -135,7 +135,10 @@ function getBodyJson(req) {
+ function getImportGlobRelativePath(from, to) {
+ 	const normalizedFrom = slash(from);
+ 	const normalizedTo = slash(to);
+-	return slash(RE_WINDOWS_DRIVE.test(normalizedFrom) || RE_WINDOWS_DRIVE.test(normalizedTo) ? win32.relative(normalizedFrom, normalizedTo) : relative(normalizedFrom, normalizedTo));
++	if (RE_WINDOWS_DRIVE.test(normalizedFrom) || RE_WINDOWS_DRIVE.test(normalizedTo)) {
++		return slash(win32.relative(normalizedFrom.replaceAll("/", "\\"), normalizedTo.replaceAll("/", "\\")));
++	}
++	return slash(relative(normalizedFrom, normalizedTo));
+ }
+ function makeAbsoluteImportGlob(self, globs, options = {}, baseRoot) {
+ 	const root = baseRoot && globs.some((glob) => RE_WINDOWS_DRIVE.test(slash(glob))) ? baseRoot : void 0;
