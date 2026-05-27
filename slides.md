@@ -11,19 +11,31 @@ drawings:
 transition: slide-left
 mdc: true
 fonts:
-  sans: 'Inter, Noto Sans SC'
+  sans: 'Inter, Helvetica Neue, Arial Nova, Noto Sans SC'
   mono: 'JetBrains Mono'
-  weights: '200,300,400,500,600,700,800,900'
+  weights: '200,300,400,500,600,700'
   italic: false
 ---
 
-# 用户要的不是锤子 🔨
-"If the only tool you have is a hammer, everything looks like a nail."
-
-**从对标分析到设计思维**
-
-2026-05-28
-@杜屈佳
+<div class="swiss-page">
+  <div>
+    <div class="ui-meta text-[20px] tracking-[0.14em]">
+      Design Thinking · Benchmarking
+    </div>
+    <h1
+      class="h-cover-zh mt-8 whitespace-nowrap normal-case"
+    >
+      用户要的不是锤子 <span class="align-[8px]">🔨</span>
+    </h1>
+    <p class="h-md mt-10">
+      从对标分析到设计思维
+    </p>
+  </div>
+  <div class="swiss-meta-row">
+    <div class="ui-meta">2026-05-28</div>
+    <div class="ui-meta">杜屈佳</div>
+  </div>
+</div>
 
 <!--
 开场：原本我是选的分享主题是“动画与Canvas图形”的，
@@ -38,15 +50,19 @@ layout: section
 transition: fade
 ---
 
- 👋 当你遇到一个**完全陌生的领域**，你的反应是什么？
-
-<ul>
-
-<li v-click>🔍 直接搜索解决方案？</li>
-<li v-click>📋 找同类产品抄一遍？</li>
-<li v-click>🤔 先问「为什么会有这个需求」？</li>
-
-</ul>
+<div class="swiss-page">
+  <div class="swiss-head">
+    <div class="t-cat">Context</div>
+    <div class="swiss-accent-bar"></div>
+    <h2 class="swiss-section-title">当你遇到一个完全陌生的领域</h2>
+    <p class="h-md max-w-[18ch]">你的第一反应是什么？</p>
+  </div>
+  <ul class="swiss-list">
+    <li v-click>🔍 直接搜索解决方案？</li>
+    <li v-click>📋 找同类产品抄一遍？</li>
+    <li v-click>🤔 先问「为什么会有这个需求」？</li>
+  </ul>
+</div>
 <!--
 举例子：陌生环境
 互动环节：让大家说几个答案，然后总结规律。
@@ -57,14 +73,17 @@ layout: section
 transition: fade
 ---
 
- # Benchmarking 对标分析
-
-<ul>
-
-<li v-click>设计师做新产品时用 <strong>对标研究</strong> 看行业天花板</li>
-<li v-click>开发者找 <strong>最佳实践</strong>（如 Vue 最佳实践）</li>
-
-</ul>
+<div class="swiss-page">
+  <div class="swiss-head">
+    <div class="t-cat">Methodology</div>
+    <div class="swiss-accent-bar"></div>
+    <h2 class="swiss-section-title">Benchmarking 对标分析</h2>
+  </div>
+  <ul class="swiss-list">
+    <li v-click>设计师做新产品时用 <strong>对标研究</strong> 看行业天花板</li>
+    <li v-click>开发者找 <strong>最佳实践</strong>（如 Vue 最佳实践）</li>
+  </ul>
+</div>
 
 <!--
 本质上是同一件事
@@ -146,7 +165,7 @@ transition: slide-left
 
 <div v-click>
 
-# 苹果 Apple TV 遥控器
+# Apple TV 遥控器
 
   <div class="cb-case-copy">
     不是加按钮，是<strong>减按钮</strong>
@@ -209,19 +228,23 @@ transition: slide-left
 
 <div v-click>
 
+<div class="swiss-panel">
 ❌ **表象问题**：系统界面不好看
+</div>
 
 </div>
 
 <div v-click>
 
+<div class="swiss-panel mt-4 border-cb-primary">
 ✅ **真实问题**：旅客在值机场景下的**焦虑感没有被解决**
+</div>
 
 </div>
 
 <div v-click>
 
-<div class="mt-6 p-4 bg-blue-50 border-l-4 border-blue-400 rounded">
+<div class="swiss-panel-soft mt-6 border-l-4 border-cb-primary">
 
 **真正的解法方向**：
 
@@ -253,7 +276,7 @@ transition: fade
 
 <div v-click>
 
-<div class="mt-6 p-4 bg-gray-50 border rounded">
+<div class="swiss-panel-soft mt-6">
 
 🚇 **地铁自助购票机的故事**
 
