@@ -68,7 +68,9 @@ transition: fade
 </div>
 
 <!--
-举例子：陌生环境
+举例子：陌生环境，
+比如 第一次独自开车去陌生城市
+想吃一道国宴菜单里的花雕醉鸡
 互动环节：让大家说几个答案，然后总结规律。
 -->
 
@@ -79,20 +81,20 @@ transition: fade
 
 <div class="">
   <div class="">
-    <div class="text-[36px]">Benchmarking 对标分析</div>
+    <div class="text-[80px]">Benchmarking 对标分析</div>
   </div>
   <ul class="mt-2">
     <li v-click>设计师做新产品时用 <strong>对标研究</strong> 看行业天花板</li>
-    <li v-click>开发者找 <strong>最佳实践</strong>（如 Vue 最佳实践）</li>
+    <li v-click>开发者找 <strong>最佳实践</strong></li>
   </ul>
 </div>
 
-
 <!--
+设计的产品研究、竞品分析
+开发（如 Vue 最佳实践）
 本质上是同一件事
-引出 Benchmarking 概念，强调它不是抄，是理解行业边界。
+，强调它不是抄，是理解行业边界。
 「Benchmarking 是发散阶段的地图，帮你看清楚山在哪里，再决定爬哪座。」
-举个例子
 -->
 
 ---
@@ -101,7 +103,7 @@ image: "/images/drill/airport.jpg"
 transition: slide-left
 ---
 
- <h2 class="swiss-section-title">CUSS 案例</h2>
+<h2 class="swiss-section-title">CUSS 案例</h2>
 
 <p v-click>横向研究：找同类做得最好的</p>
 <li v-click>✈️ <strong>SITA、Amadeus</strong></li>
@@ -117,10 +119,10 @@ transition: slide-left
 
 </ul>
 
-<!-- 背景 20 世纪 90 年代初，全球航空业在放松管制、燃油价格波动和票价竞争的多重压力下，普遍面临单位旅客服务成本过高的问题，为提高航班周转效率、减少高峰时期的排队拥堵，不少航空公司开始尝试用信息技术替代部分人工流程，自助值机因此成为一个自然的实验场景 -->
 <!--
+背景 20 世纪 90 年代初，全球航空业在管制、燃油价格波动和票价竞争的多重压力下，面临服务成本过高的问题，为提高航班周转效率、减少高峰时期的排队拥堵，不少航空公司开始尝试用信息技术替代部分人工流程，自助值机因此成为一个自然的实验场景 
 纵向跨行业类比，引发思考：同样是自助终端，差在哪里？
-国内数据比较难获取，知名公司 SITA、Amadeus，看看行业天花板
+国内数据比较难获取，知名公司 SITA（在家打印行李标签）、Amadeus，看看行业天花板
 这个系统的大多数问题，不是技术问题，是人的问题。旅客不用它，不是因为它坏掉了，而是因为——他们不觉得它是为自己设计的。这就引出了一个更根本的问题：我们在为谁做这个东西？
 -->
 
@@ -128,12 +130,12 @@ transition: slide-left
 layout: fact
 transition: fade
 ---
+
 # 设计思维？
 
 <span v-click class="text-gray-400 mt-8"> 以人为本 </span>
 
 <!-- 以人为本，从用户的真实需求出发，而不是从功能清单出发。 -->
-
 
 ---
 layout: two-cols
@@ -209,6 +211,7 @@ transition: slide-left
 </div>
 
 <!--
+技术是锤子。
 但用户来找你，不是因为你有锤子——
 是因为他想要墙上的那个孔，无论是锤子也好，电转也好，用户的需求还是没变。
 但是深挖下去，钻孔的目的是什么？ 是为了挂画。但挂画的目的是什么？ 是为了装饰，是为了让家变的更加温馨的情感需求。
@@ -224,7 +227,7 @@ transition: slide-left
 <div v-click>
 
 <div class="swiss-panel">
-❌ **表象问题**：系统界面不好看
+❌ **表象问题**：系统界面不好用
 </div>
 
 </div>
@@ -290,7 +293,7 @@ layout: quote
 transition: fade-out
 ---
 
-
+<GradientBackground/>
 <div class="cb-display-sm w-full mx-auto max-w-[28ch] font-medium font-serif text-[50px] leading-[1.3]">
 “真正的护城河不是用了什么工具，而是对<strong>用户</strong>、对<strong>业务</strong>有多深的理解。”
 </div>
@@ -313,4 +316,3 @@ transition: fade
 * [Amadeus | It’s how travel works.](https://amadeus.com/en)
 * [双钻模型：先做对的事，再把事做对 | Easy-Vibe 教程](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-double-diamond/)
 * [#526. Airbnb创始人Brian Chesky：AI时代的创始人模式、想象力与公司重塑 - 跨国串门儿计划 | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/69fcd16e1b7bd50295af967f)
-

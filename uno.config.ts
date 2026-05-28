@@ -4,7 +4,7 @@ export default defineConfig({
   theme: {
     colors: {
       cb: {
-        primary: '#002fa7',
+        primary: '#0052FF',
         'primary-active': '#00268a',
         ink: '#0a0a0a',
         body: '#4b5563',
