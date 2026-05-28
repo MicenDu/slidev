@@ -31,14 +31,14 @@ fonts:
       <div class="text-[56px] leading-[1.1] normal-case text-gray-900">
         用户要的不是锤子 <span class="align-[8px]">🔨</span>
       </div>
-      <div class="max-w-[16ch] text-[24px] leading-[1.45] font-400 text-gray-600">
+      <div class="max-w-[18ch] text-[24px] leading-[1.45] font-400 text-gray-600">
         从对标分析到设计思维
       </div>
     </div>
   </div>
     <div class="mt-8 text-[16px] leading-[1.6] text-gray-700">
-        <div>杜屈佳</div>
-        <div>2026-05-28</div>
+        <div class="font-serif">杜屈佳</div>
+        <div class="text-[14px] font-mono">2026-05-28</div>
     </div>
 </div>
 
@@ -56,11 +56,11 @@ transition: fade
 ---
 
 <div class="">
-  <div class="">
-    <div class="text-[36px]">当你遇到一个完全陌生的领域</div>
-    <p class="">你的第一反应是什么？</p>
+  <div class=" border-cb-primary font-sans">
+    <div class="mt-12 text-[46px] ">当你遇到一个完全陌生的领域🛠</div>
+    <p class="text-[46px]">你的第一反应是什么？</p>
   </div>
-  <ul class="">
+  <ul class="mt-12">
     <li v-click>🔍 直接搜索解决方案？</li>
     <li v-click>📋 找同类产品抄一遍？</li>
     <li v-click>🤔 先问「为什么会有这个需求」？</li>
@@ -101,7 +101,7 @@ image: "/images/drill/airport.jpg"
 transition: slide-left
 ---
 
- <h2 class="swiss-section-title">CUSS 对标矩阵</h2>
+ <h2 class="swiss-section-title">CUSS 案例</h2>
 
 <p v-click>横向研究：找同类做得最好的</p>
 <li v-click>✈️ <strong>SITA、Amadeus</strong></li>
@@ -186,11 +186,11 @@ transition: slide-left
 
 # 回到锤子的比喻
 
-<div v-click>
+<div v-click class="w-full">
 
 技术是锤子。
 
-有了电钻也好，AI 也好，你手里的工具越来越强。
+有了电钻也好，AI 也好，手里的工具越来越强。
 
 </div>
 
@@ -205,7 +205,7 @@ transition: slide-left
 
 是因为他墙上想挂一幅画。
 
-但挂画的目的是什么🫤？
+但挂画的目的是什么🧐？
 </div>
 
 <!--
@@ -291,7 +291,7 @@ transition: fade-out
 ---
 
 
-<div class="cb-display-sm mx-auto max-w-[26ch] font-serif text-[50px] leading-[1.3]">
+<div class="cb-display-sm w-full mx-auto max-w-[28ch] font-medium font-serif text-[50px] leading-[1.3]">
 “真正的护城河不是用了什么工具，而是对<strong>用户</strong>、对<strong>业务</strong>有多深的理解。”
 </div>
 
@@ -313,3 +313,4 @@ transition: fade
 * [Amadeus | It’s how travel works.](https://amadeus.com/en)
 * [双钻模型：先做对的事，再把事做对 | Easy-Vibe 教程](https://datawhalechina.github.io/easy-vibe/zh-cn/stage-1/appendix-double-diamond/)
 * [#526. Airbnb创始人Brian Chesky：AI时代的创始人模式、想象力与公司重塑 - 跨国串门儿计划 | 小宇宙 - 听播客，上小宇宙](https://www.xiaoyuzhoufm.com/episode/69fcd16e1b7bd50295af967f)
+

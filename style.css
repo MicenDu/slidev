@@ -4,3 +4,6 @@ ol li{
 ul li{
     --uno: list-circle;
 }
+.slidev-layout a:hover{
+    color: #3b82f6;        
+}
